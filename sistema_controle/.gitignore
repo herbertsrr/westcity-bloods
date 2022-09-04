@@ -1,0 +1,6 @@
+
+# XWay
+.env
+.idea/*
+composer.lock
+vendor/*

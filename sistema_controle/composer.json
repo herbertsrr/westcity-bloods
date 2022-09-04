@@ -1,0 +1,22 @@
+{
+  "name": "herbertsrr/westcity_bloods_controle",
+  "description": "Bloods - Controle Interno",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Herbert S. R. Rodrigues",
+      "email": "herbert_srr@hotmail.com"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "phpmailer/phpmailer": "@stable",
+    "vlucas/phpdotenv": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "SRC\\": "src/"
+    }
+  }
+}
