@@ -21,7 +21,7 @@ try {
 // Importando o arquivo de configuração.
 //----------------------------------------------------------------------------------------------------------------------
 try {
-    $config = $pathroot . '_configuracao' . DIRECTORY_SEPARATOR . 'configuracao.php';
+    $config = $pathroot . 'configuracao' . DIRECTORY_SEPARATOR . 'configuracao.php';
     require_once $config;
 } catch (\Exception $e) {
     //REPORTA ERRO DE CARREGAMENTO VARIAVEIS DE AMBIENTE E CONSTANTES DO SISTEMA
@@ -62,7 +62,7 @@ try {
 
     //------------------------------------------------------
     // Faz a rota das páginas
-    $paginas_diretorio = $pathroot . '_paginas' . DIRECTORY_SEPARATOR;
+    $paginas_diretorio = $pathroot . 'paginas' . DIRECTORY_SEPARATOR;
     $pagina = filter_input(INPUT_GET, "secao", FILTER_DEFAULT);
     $pagina = preg_replace('/&([a-z])[a-z]+;/i', '', $pagina);
     $pagina = strip_tags($pagina);
