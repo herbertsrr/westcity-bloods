@@ -1,8 +1,5 @@
 <?php
-define('TEMPLATE_BLUEPRINT', './template/blueprint-css');
-define('TEMPLATE_BOOTSTRAP', './template/bootstrap');
-define('TEMPLATE_BOOTSTRAP_CSS', './template/bootstrap/css');
-define('TEMPLATE_BOOTSTRAP_IMG', './template/bootstrap/img');
-define('TEMPLATE_BOOTSTRAP_JS', './template/bootstrap/js');
-define('TEMPLATE_IMAGENS', './template/img');
-define('SCRIPTS_JS', './scripts');
+define('TEMPLATE_CSS', './template/gamesforest/css');
+define('TEMPLATE_IMAGENS', './template/gamesforest/img');
+define('TEMPLATE_JS', './template/gamesforest/js');
+define('TEMPLATE_PLUGINS', './template/gamesforest/plugins');
